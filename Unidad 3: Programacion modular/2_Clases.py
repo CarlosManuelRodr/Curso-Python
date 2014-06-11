@@ -31,7 +31,7 @@ def estado_puerta(puerta1, puerta2):
 mi_puerta1 = Puerta()
 mi_puerta2 = Puerta()
 
-opcion = 1
+opcion = 0
 while opcion != 3:
     estado_puerta(mi_puerta1, mi_puerta2)
 
