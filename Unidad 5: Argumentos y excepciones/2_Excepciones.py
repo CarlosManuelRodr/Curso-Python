@@ -13,19 +13,24 @@ while True:
         print("2/" + str(num) + " = " + str(res))
 
 
+    # Excepción de división entre cero.
     except ZeroDivisionError as err:
         print("Estúpido!:", err)
 
+    # Excepción de variable de tipo incorrecto.
     except ValueError:
         print("Error: No se ha introducido un número")
 
+    # Excepción estándar (la que ocurre cuando se introduce el tres).
     except Exception as e:
         print("Excepción: " + str(e))
 
+    # Excepción de interrupción por teclado.
     except KeyboardInterrupt:
         print("Interrupción")
         sys.exit(1)
 
+    # Excepción estándar.
     except:
         print("Excepción desconocida")
         sys.exit(1)
