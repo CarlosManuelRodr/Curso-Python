@@ -34,3 +34,9 @@ while True:
     except:
         print("Excepción desconocida")
         sys.exit(1)
+
+'''
+Ejercicio: Cuando se intenta abrir un archivo, si el sistema no lo encuentra lanza una
+excepción "IOError". Implementar un lector de archivo de texto que sea capaz de manejar
+el caso en el que no encuentra el archivo que se desea abrir.
+'''

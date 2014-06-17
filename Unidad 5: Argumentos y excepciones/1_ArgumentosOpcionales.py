@@ -2,7 +2,7 @@
 import argparse
 
 # Se definen los argumentos opcionales.
-parser = argparse.ArgumentParser(description='Process some integers.')
+parser = argparse.ArgumentParser(description='Procesa argumentos..')
 parser.add_argument("-n", "--numero", metavar='N', type=int, dest="varnumero", help="Guarda número", required=True)
 parser.add_argument("-t", "--texto", metavar='TEXT', dest="vartexto", default="Nada", help="Guarda texto")
 parser.add_argument("-o", "--opcion", help="Selecciona opcional", dest='opcion',action='store_true')
