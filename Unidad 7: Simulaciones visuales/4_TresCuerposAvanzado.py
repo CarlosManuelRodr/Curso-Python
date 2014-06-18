@@ -120,4 +120,4 @@ while True:
         i.Update()
 
     scene.center = centrar.pos
-    rate(100)
+    rate(cps)
