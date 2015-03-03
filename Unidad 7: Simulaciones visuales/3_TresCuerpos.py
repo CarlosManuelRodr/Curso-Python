@@ -194,5 +194,3 @@ while True:
     
     # Actualiza iteraciones.
     i += 1
-    
-    
