@@ -9,7 +9,7 @@ while True:
         if num == 3:
             raise Exception("Terrible error! Has introducido el 3")
 
-        res = 2/num
+        res = 2 / num
         print("2/" + str(num) + " = " + str(res))
 
 

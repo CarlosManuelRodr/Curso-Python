@@ -23,3 +23,7 @@ for letra in letras:
     sys.stdout.write(letra)
 
 print('')
+
+'''
+Ejercicio: Hacer un programa que pida tu nombre y que escriba la primera y tercera letra.
+'''

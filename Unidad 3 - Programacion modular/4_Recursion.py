@@ -16,7 +16,7 @@ else:
 
 
 '''
-Ejercicio: Escribe una función recursiva que realice una cuenta regresiva, empezando desde 
+Ejercicio 1: Escribe una función recursiva que realice una cuenta regresiva, empezando desde 
 un valor especificado por el usuario, y termine en cero.
 
 Ejercicio 2: Escribe un programa que eleve un número a una potencia n, considerando que una

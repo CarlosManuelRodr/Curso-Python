@@ -61,7 +61,7 @@ grafica.autoscale = False
 curva1 = curve(display = grafica, color = color.blue, radius=0.05)
 curva2 = curve(display = grafica, color = color.red, radius=0.05)
 
-# Iterar indefinidamente.
+# Iterar para siempre.
 while True:
     # Control de cuadros por segundo.
     rate(100)

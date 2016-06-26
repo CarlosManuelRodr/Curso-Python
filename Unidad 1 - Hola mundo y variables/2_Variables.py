@@ -45,10 +45,21 @@ Los índices se contean así:
 '''
 
 '''
-Ejercicio 1: El usuario tecleará dos números (a y b), y el programa mostrar el resultado de la
-operación (a+b)*(a-b) y el resultado de la operación a^2-b^2. Potenciación en python es: 3**2 = 9.
+ Una vez definidas las variables se pueden realizar operaciones sobre éstas. Por ejemplo,
+ supongamos que a = 3 y b = 5. Entonces definimos
 
-Ejercicio 2: Con el texto se pueden hacer tambien operaciones de suma. La suma en texto
-une las cadenas de texto. Hacer un programa que le pregunte el nombre al usuario
-y lo salude por su nombre
+ Suma: a + b = 8
+ Resta: b - a = 2
+ Multiplicacion: a * b = 15
+ Division: a / b = 0.6
+ Potenciación: a ** b = 243
+'''
+
+'''
+ Ejercicio 1: El usuario tecleará dos números (a y b), y el programa mostrar el resultado de la
+ operación (a+b)*(a-b) y el resultado de la operación a^2-b^2. Potenciación en python es: 3**2 = 9.
+
+ Ejercicio 2: Con el texto se pueden hacer tambien operaciones de suma. La suma en texto
+ une las cadenas de texto. Hacer un programa que le pregunte el nombre al usuario
+ y lo salude por su nombre
 '''

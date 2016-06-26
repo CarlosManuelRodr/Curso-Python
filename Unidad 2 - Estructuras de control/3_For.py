@@ -8,3 +8,7 @@ for n in lista:
 # También puede recorrer números en un rango.
 for i in range(0,10):
 	print(i)
+
+'''
+Ejercicio: Hacer el programa de Fibonacci pero usando un For en vez del While.
+'''

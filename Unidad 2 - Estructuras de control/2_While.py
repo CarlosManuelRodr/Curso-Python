@@ -11,7 +11,9 @@ a, b = 0, 1    # Asignación múltiple. a = 0, b = 1
 print("Fibbonaci")
 while b < 50:
 	print(b)
-	a, b = b, a+b
+	a = b
+	b = a+b
+	# O se puede escribir como a, b = b, a+b
 
 
 '''

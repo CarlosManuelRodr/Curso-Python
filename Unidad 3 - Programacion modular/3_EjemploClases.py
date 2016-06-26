@@ -27,3 +27,14 @@ lista_puertas.append(puerta_rara)
 
 for puerta in lista_puertas:
     print(puerta.m_abierta)
+
+
+'''
+ Ejercicio 1: Crear varias clases que se llamarán Círculo, Cuadrado y Triángulo. Cada
+ clase se debe construir con los parámetros de cada figura geométrica. La clase debe
+ tener un método para calcular el área de cada una.
+
+
+ Ejercicio 2: Crear una clase que se llame polígono. La clase debe poder aceptar un número
+ arbitrario de puntos y luego poder calcular su área.
+'''

@@ -1,5 +1,11 @@
 #Encoding: utf-8
 
+'''
+ Define la clase Puerta. Esta puerta tiene dos estados, abierta y cerrada, 
+ y se cierra con una contraseña. Para abrila se necesita introducir la
+ contraseña de nuevo.
+'''
+
 class Puerta:
     def __init__(self):
         self.m_abierta = True
@@ -17,6 +23,11 @@ class Puerta:
         self.m_contrasegna = contrasegna
 
 
+'''
+ Esta función se encarga de averiguar el estado de las puertas. Como argumento
+ se requieren dos objetos de la clase Puerta.
+'''
+
 def estado_puerta(puerta1, puerta2):
     if puerta1.m_abierta:
         print("La puerta 1 está abierta.")
@@ -28,8 +39,18 @@ def estado_puerta(puerta1, puerta2):
     else:
         print("La puerta 2 está cerrada.")
 
+
+'''
+ Crea dos objetos de la clase Puerta.
+'''
+
 mi_puerta1 = Puerta()
 mi_puerta2 = Puerta()
+
+
+'''
+Menú para manipular la clase puerta.
+'''
 
 opcion = 0
 while opcion != 3:

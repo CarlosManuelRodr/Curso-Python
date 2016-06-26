@@ -1,13 +1,14 @@
 #Encoding: utf-8
+
 # Importa módulo visual.
 from visual import *
 
 # Crea objeto "suelo" y "bola".
-suelo = box (pos=(0,0,0), length=4, height=0.5, width=4, color=color.blue)
-bola = sphere (pos=(0,4,0), radius=1, color=color.red)
+suelo = box (pos=(0, 0, 0), length=4, height=0.5, width=4, color=color.blue)
+bola = sphere (pos=(0, 4, 0), radius=1, color=color.red)
 
 # Asigna velocidasd y variables de simulación.
-bola.velocity = vector(0,-1,0)
+bola.velocity = vector(0, -1, 0)
 dt = 0.01
 g = 9.81
 
